@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ALJCrystalBall;
 
 @interface ALJViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
-@property (strong, nonatomic) NSArray *predictions;
-- (IBAction)buttonPressed;
+@property (nonatomic) ALJCrystalBall * crystalBall;
+
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
+- (void)makePrediction;
 
 @end
