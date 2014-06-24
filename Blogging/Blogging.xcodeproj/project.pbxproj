@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C8988F671939A5C1000E0F36 /* BRATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8988F661939A5C1000E0F36 /* BRATableViewController.m */; };
 		C8988F6A193A45C8000E0F36 /* BRABlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = C8988F69193A45C8000E0F36 /* BRABlogPost.m */; };
+		C89FC07F1958A58900C533E3 /* BRAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C89FC07E1958A58900C533E3 /* BRAWebViewController.m */; };
 		C8B190F31939A32C00546074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B190F21939A32C00546074 /* Foundation.framework */; };
 		C8B190F51939A32C00546074 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B190F41939A32C00546074 /* CoreGraphics.framework */; };
 		C8B190F71939A32C00546074 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B190F61939A32C00546074 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 		C8988F661939A5C1000E0F36 /* BRATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRATableViewController.m; sourceTree = "<group>"; };
 		C8988F68193A45C8000E0F36 /* BRABlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRABlogPost.h; sourceTree = "<group>"; };
 		C8988F69193A45C8000E0F36 /* BRABlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRABlogPost.m; sourceTree = "<group>"; };
+		C89FC07D1958A58900C533E3 /* BRAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAWebViewController.h; sourceTree = "<group>"; };
+		C89FC07E1958A58900C533E3 /* BRAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAWebViewController.m; sourceTree = "<group>"; };
 		C8B190EF1939A32C00546074 /* Blogging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blogging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B190F21939A32C00546074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8B190F41939A32C00546074 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +88,8 @@
 		C8B190E61939A32C00546074 = {
 			isa = PBXGroup;
 			children = (
+				C89FC07D1958A58900C533E3 /* BRAWebViewController.h */,
+				C89FC07E1958A58900C533E3 /* BRAWebViewController.m */,
 				C8988F68193A45C8000E0F36 /* BRABlogPost.h */,
 				C8988F69193A45C8000E0F36 /* BRABlogPost.m */,
 				C8988F651939A5C1000E0F36 /* BRATableViewController.h */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8988F671939A5C1000E0F36 /* BRATableViewController.m in Sources */,
+				C89FC07F1958A58900C533E3 /* BRAWebViewController.m in Sources */,
 				C8B191031939A32D00546074 /* BRAAppDelegate.m in Sources */,
 				C8B190FF1939A32D00546074 /* main.m in Sources */,
 				C8988F6A193A45C8000E0F36 /* BRABlogPost.m in Sources */,
