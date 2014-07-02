@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C81A9AE519490AE800DD14D9 /* pirate1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C81A9AE019490AE800DD14D9 /* pirate1.jpeg */; };
-		C81A9AE619490AE800DD14D9 /* zombie1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C81A9AE119490AE800DD14D9 /* zombie1.jpeg */; };
-		C81A9AE719490AE800DD14D9 /* robot1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C81A9AE219490AE800DD14D9 /* robot1.jpeg */; };
-		C81A9AE819490AE800DD14D9 /* monkey1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C81A9AE319490AE800DD14D9 /* monkey1.jpeg */; };
-		C81A9AE919490AE800DD14D9 /* ninja1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C81A9AE419490AE800DD14D9 /* ninja1.jpeg */; };
 		C8A453A21946093200B94414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A453A11946093200B94414 /* Foundation.framework */; };
 		C8A453A41946093200B94414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A453A31946093200B94414 /* CoreGraphics.framework */; };
 		C8A453A61946093200B94414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A453A51946093200B94414 /* UIKit.framework */; };
@@ -26,6 +21,12 @@
 		C8A453C31946093200B94414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A453A51946093200B94414 /* UIKit.framework */; };
 		C8A453CB1946093200B94414 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8A453C91946093200B94414 /* InfoPlist.strings */; };
 		C8A453CD1946093200B94414 /* RoshamboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A453CC1946093200B94414 /* RoshamboTests.m */; };
+		C8D4350B19646F3E00E280B9 /* robotImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D4350A19646F3E00E280B9 /* robotImage.png */; };
+		C8D4350D196471C000E280B9 /* zombieImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D4350C196471C000E280B9 /* zombieImage.png */; };
+		C8D4350F1964729600E280B9 /* pirateImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D4350E1964729600E280B9 /* pirateImage.png */; };
+		C8D435111964739A00E280B9 /* monkeyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D435101964739A00E280B9 /* monkeyImage.png */; };
+		C8D435131964744F00E280B9 /* ninjaImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D435121964744F00E280B9 /* ninjaImage.png */; };
+		C8D435161964768800E280B9 /* ROSMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D435151964768800E280B9 /* ROSMenuVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C81A9AE019490AE800DD14D9 /* pirate1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirate1.jpeg; sourceTree = "<group>"; };
-		C81A9AE119490AE800DD14D9 /* zombie1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zombie1.jpeg; sourceTree = "<group>"; };
-		C81A9AE219490AE800DD14D9 /* robot1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = robot1.jpeg; sourceTree = "<group>"; };
-		C81A9AE319490AE800DD14D9 /* monkey1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monkey1.jpeg; sourceTree = "<group>"; };
-		C81A9AE419490AE800DD14D9 /* ninja1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ninja1.jpeg; sourceTree = "<group>"; };
 		C8A4539E1946093200B94414 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A453A11946093200B94414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8A453A31946093200B94414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +59,13 @@
 		C8A453C81946093200B94414 /* RoshamboTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoshamboTests-Info.plist"; sourceTree = "<group>"; };
 		C8A453CA1946093200B94414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8A453CC1946093200B94414 /* RoshamboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoshamboTests.m; sourceTree = "<group>"; };
+		C8D4350A19646F3E00E280B9 /* robotImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robotImage.png; sourceTree = "<group>"; };
+		C8D4350C196471C000E280B9 /* zombieImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombieImage.png; sourceTree = "<group>"; };
+		C8D4350E1964729600E280B9 /* pirateImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pirateImage.png; sourceTree = "<group>"; };
+		C8D435101964739A00E280B9 /* monkeyImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkeyImage.png; sourceTree = "<group>"; };
+		C8D435121964744F00E280B9 /* ninjaImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninjaImage.png; sourceTree = "<group>"; };
+		C8D435141964768800E280B9 /* ROSMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROSMenuVC.h; sourceTree = "<group>"; };
+		C8D435151964768800E280B9 /* ROSMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROSMenuVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		C8A453951946093200B94414 = {
 			isa = PBXGroup;
 			children = (
+				C8D435141964768800E280B9 /* ROSMenuVC.h */,
+				C8D435151964768800E280B9 /* ROSMenuVC.m */,
 				C8A453A71946093200B94414 /* Roshambo */,
 				C8A453C61946093200B94414 /* RoshamboTests */,
 				C8A453A01946093200B94414 /* Frameworks */,
@@ -136,11 +141,11 @@
 		C8A453A81946093200B94414 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C81A9AE019490AE800DD14D9 /* pirate1.jpeg */,
-				C81A9AE119490AE800DD14D9 /* zombie1.jpeg */,
-				C81A9AE219490AE800DD14D9 /* robot1.jpeg */,
-				C81A9AE319490AE800DD14D9 /* monkey1.jpeg */,
-				C81A9AE419490AE800DD14D9 /* ninja1.jpeg */,
+				C8D4350E1964729600E280B9 /* pirateImage.png */,
+				C8D4350C196471C000E280B9 /* zombieImage.png */,
+				C8D4350A19646F3E00E280B9 /* robotImage.png */,
+				C8D435101964739A00E280B9 /* monkeyImage.png */,
+				C8D435121964744F00E280B9 /* ninjaImage.png */,
 				C8A453A91946093200B94414 /* Roshambo-Info.plist */,
 				C8A453AA1946093200B94414 /* InfoPlist.strings */,
 				C8A453AD1946093200B94414 /* main.m */,
@@ -245,13 +250,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A453BA1946093200B94414 /* Images.xcassets in Resources */,
-				C81A9AE719490AE800DD14D9 /* robot1.jpeg in Resources */,
-				C81A9AE519490AE800DD14D9 /* pirate1.jpeg in Resources */,
+				C8D4350F1964729600E280B9 /* pirateImage.png in Resources */,
+				C8D435111964739A00E280B9 /* monkeyImage.png in Resources */,
 				C8A453AC1946093200B94414 /* InfoPlist.strings in Resources */,
+				C8D4350D196471C000E280B9 /* zombieImage.png in Resources */,
 				C8A453B51946093200B94414 /* Main.storyboard in Resources */,
-				C81A9AE919490AE800DD14D9 /* ninja1.jpeg in Resources */,
-				C81A9AE819490AE800DD14D9 /* monkey1.jpeg in Resources */,
-				C81A9AE619490AE800DD14D9 /* zombie1.jpeg in Resources */,
+				C8D4350B19646F3E00E280B9 /* robotImage.png in Resources */,
+				C8D435131964744F00E280B9 /* ninjaImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D435161964768800E280B9 /* ROSMenuVC.m in Sources */,
 				C8A453B81946093200B94414 /* ROSViewController.m in Sources */,
 				C8A453AE1946093200B94414 /* main.m in Sources */,
 				C8A453B21946093200B94414 /* ROSAppDelegate.m in Sources */,

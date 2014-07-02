@@ -18,13 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    welcomeLabel.text = @"Welcome to Monkey-Pirate-Robot-Ninja-Zombie!";
+    welcomeLabel.text = @"Make Your Move";
     winningLabel.hidden = YES;
 }
 
 - (IBAction)monkeyButtonPressed:(id)sender
 {
-    image.image = [UIImage imageNamed:@"monkey1.jpeg"];
+    image.image = [UIImage imageNamed:@"monkeyImage"];
     [self computerChoice];
     buttonPressed = 0;
     [self determineWinner];
@@ -34,7 +34,7 @@
 
 - (IBAction)robotButtonPressed:(id)sender
 {
-    image.image = [UIImage imageNamed:@"robot1.jpeg"];
+    image.image = [UIImage imageNamed:@"robotImage"];
     [self computerChoice];
     buttonPressed = 1;
     [self determineWinner];
@@ -44,7 +44,7 @@
 
 - (IBAction)pirateButtonPressed:(id)sender
 {
-    image.image = [UIImage imageNamed:@"pirate1.jpeg"];
+    image.image = [UIImage imageNamed:@"pirateImage"];
     [self computerChoice];
     buttonPressed = 2;
     [self determineWinner];
@@ -54,7 +54,7 @@
 
 - (IBAction)ninjaButtonPressed:(id)sender
 {
-    image.image = [UIImage imageNamed:@"ninja1.jpeg"];
+    image.image = [UIImage imageNamed:@"ninjaImage"];
     [self computerChoice];
     buttonPressed = 3;
     [self determineWinner];
@@ -64,7 +64,7 @@
 
 - (IBAction)zombieButtonPressed:(id)sender
 {
-    image.image = [UIImage imageNamed: @"zombie1.jpeg"];
+    image.image = [UIImage imageNamed: @"zombieImage"];
     [self computerChoice];
     buttonPressed = 4;
     [self determineWinner];
@@ -75,11 +75,11 @@
 - (void)computerChoice
 {
     random = arc4random()%(5);
-    if (random == 0) image2.image = [UIImage imageNamed:@"monkey1.jpeg"];
-    if (random == 1) image2.image = [UIImage imageNamed:@"robot1.jpeg"];
-    if (random == 2) image2.image = [UIImage imageNamed:@"pirate1.jpeg"];
-    if (random == 3) image2.image = [UIImage imageNamed:@"ninja1.jpeg"];
-    if (random == 4) image2.image = [UIImage imageNamed:@"zombie1.jpeg"];
+    if (random == 0) image2.image = [UIImage imageNamed:@"monkeyImage"];
+    if (random == 1) image2.image = [UIImage imageNamed:@"robotImage"];
+    if (random == 2) image2.image = [UIImage imageNamed:@"pirateImage"];
+    if (random == 3) image2.image = [UIImage imageNamed:@"ninjaImage"];
+    if (random == 4) image2.image = [UIImage imageNamed:@"zombieImage"];
 }
 
 - (void)determineWinner
